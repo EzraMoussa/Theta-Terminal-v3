@@ -1,10 +1,8 @@
-FROM openjdk:21-jdk-slim
+FROM eclipse-temurin:21-jdk-jammy
 
 WORKDIR /opt/thetaterminal-v3
 
-# fetch jar on build
-RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/* \
-    && curl -L -o ThetaTerminalv3.jar https://download.thetadata.us/ThetaTerminalv3.jar
+RUN apk add --no-cache curl bash
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
