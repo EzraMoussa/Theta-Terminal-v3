@@ -6,6 +6,7 @@ services:
     environment:
       - THETA_V3_USER
       - THETA_V3_PASS
+      - THETA_V3_JAR_URL=https://download-unstable.thetadata.us/ThetaTerminalv3.jar
     ports:
       - "25503:25503"
     networks:
