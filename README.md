@@ -1,6 +1,6 @@
 # Theta Terminal v3 (Dockerized)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/3TWb-P?referralCode=qYrEzB&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/theta-terminal-v3?referralCode=qYrEzB&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 This project provides a Dockerized setup for running **Theta Terminal v3**, the latest version of the market data gateway from [Theta Data](https://thetadata.us/).
 
