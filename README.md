@@ -7,13 +7,14 @@ This project provides a Dockerized setup for running **Theta Terminal v3**, the 
 Theta Terminal acts as a local server that handles the proprietary protocol for receiving market data, exposing a standard REST API for your applications to consume.
 
 **Note:** This is for **Theta Terminal v3**. If you are looking for v2, this is not the correct repository.
+This is an unofficial template and is not affiliated with, endorsed by, or connected to Theta Data. It is a community-provided tool to help deploy the official Theta Terminal software. Users are responsible for ensuring they comply with Theta Data's Terms of Service.
 
 ## Documentation
 
 For full details on Theta Terminal and how to use the API, please refer to the official documentation:
 [Theta Data v3 Getting Started](https://docs.thetadata.us/Articles/Getting-Started/Getting-Started.html)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -77,3 +78,4 @@ This repository is designed to be a **Railway Template**. You can deploy it dire
 - `Dockerfile`: Builds the Java 21 environment and sets up the runtime.
 - `entrypoint.sh`: Handles credential configuration and downloads the latest JAR at runtime.
 - `docker-compose.yml`: Orchestrates the service for local development.
+
