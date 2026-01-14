@@ -30,7 +30,7 @@ The following environment variables are required to run the terminal:
 | `THETA_V3_USER` | Your Theta Data email address. |
 | `THETA_V3_PASS` | Your Theta Data password. |
 
-### 🛠 Local Deployment
+### Local Deployment
 
 You can run this project locally using Docker Compose.
 
